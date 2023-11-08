@@ -40,7 +40,6 @@ a img{
 .portadaPrincipal__2{
     display: flex;
     justify-content: center;
-    justify-content: center;
     /* position: relative;     */
 }
 .ep{
@@ -135,4 +134,23 @@ footer{
     width: 2.5rem;
     
 }
+/* 
+@media screen and (min-width: 320px) {
+   
+    header {
+        padding: 40px;
+    }
+    h1{
+        padding: 40px;
+    }
+}
 
+@media screen and (min-width: 425px) {
+   
+    header {
+        padding: 40px;
+    }
+    h1{
+        padding: 40px;
+    }
+} */
