@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.titulo{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 3rem ;
+    justify-content: center;
+    letter-spacing: 1em;
+    /* text-shadow: 3px 3px 3px; */
+    margin: 1em;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    /* background-color:burlywood; */
+    margin: 2em;
+}
+
+a img{
+    margin: 1em;
+}
+
+.portadaPrincipal__2{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    /* position: relative;     */
+}
+.ep{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.btn{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkslategray;
+	font-size: 2rem;
+	color: white;
+	padding: 15px 35px 15px 35px;
+	text-decoration: none;   
+    border-radius: 10px;   
+    border: solid 3px black;
+    /* position: absolute;
+    top: 1100px;
+    left: 850px;	 */
+}
+
+.btn:hover   
+{
+background: white;
+color: black;
+border: solid 3px white;
+font-size: 35px
+}
+
+.portada__principal2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: cadetblue; */
+    margin: 2rem;
+}
+
+.portadaPrincipal__2--foto{
+    display: flex;
+    /* width: 1200px; */
+    align-items: center;  
+}
+
+section h2{
+    text-align: center;
+    margin: 2rem;
+}
+
+.foto__grupo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nosotros{
+    text-align: center;
+    margin: 1.5em;
+}
+/*Primer EP*/
+
+.disco{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 1.6rem;
+}
+
+.titulosCanciones{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.canciones{
+    text-align: center;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px ;
+    text-align: center;
+    /* text-shadow: 3px 3px 3px; */
+    margin: 1em;
+   
+}
+@media screen and (max-width:480px) {
+    .titulo{
+        color: blueviolet;
+        
+        text-align: center;
+    }
+    h1 {
+        width: 100vh;
+    }
+    .menu {
+        width: 100vh;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+
+    .container{
+        width: 100vh;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .portadaPrincipal__2{
+        width: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .principal2{
+        width: 100vh;
+    }
+
+    footer{
+        width: 100vh;
+    }
+
+  
+}
+
