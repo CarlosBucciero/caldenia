@@ -75,6 +75,10 @@ font-size: 35px
 
 .portadaPrincipal__2--foto{
     display: flex;
+    max-width: 960px;
+    min-width: 280px;
+    max-height: 480px;
+    min-height: 280px;
     /* width: 1200px; */
     align-items: center;  
 }
