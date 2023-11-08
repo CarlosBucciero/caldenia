@@ -125,43 +125,6 @@ footer{
     text-align: center;
     /* text-shadow: 3px 3px 3px; */
     margin: 1em;
-   
 }
-@media screen and (max-width:480px) {
-    .titulo{
-        color: blueviolet;
-        
-        text-align: center;
-    }
-    h1 {
-        width: 100vh;
-    }
-    .menu {
-        width: 100vh;
-        align-items: center;
-        justify-content: center;
-        /* flex-direction: column; */
-    }
 
-    .container{
-        width: 100vh;
-        /* justify-content: center; */
-        /* align-items: center; */
-    }
-    .portadaPrincipal__2{
-        width: 100vh;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .principal2{
-        width: 100vh;
-    }
-
-    footer{
-        width: 100vh;
-    }
-
-  
-}
 
