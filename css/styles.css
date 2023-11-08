@@ -29,6 +29,10 @@
     margin: 2em;
 }
 
+.menu__iconos{
+    width: 4.5rem;
+}
+
 a img{
     margin: 1em;
 }
