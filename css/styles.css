@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+	text-decoration: none;
+    color: inherit;
+
+}
 
 .container
 {
@@ -35,6 +40,7 @@
 
 a img{
     margin: 1em;
+    
 }
 
 .portadaPrincipal__2{
@@ -134,10 +140,6 @@ section h2{
     /* font-weight: bold; */
 }
 
-.canciones{
-    text-align: center;
-
-}
 
 footer{
     background-color: black;
