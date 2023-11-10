@@ -15,6 +15,11 @@ a{
 	margin: 0 auto;
 }
 
+img, video{
+    max-width: 100%;
+    height: auto;
+
+}
 .titulo{
     display: flex;
     background-color: black;
@@ -89,10 +94,7 @@ font-size: 35px
     /* width: 1200px; */
     align-items: center;  
 }
-img{
-    width: 100%;
-    height: auto;
-}
+
 section h2{
     text-align: center;
     margin: 2rem;
