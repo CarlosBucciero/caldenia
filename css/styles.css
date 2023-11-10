@@ -60,12 +60,15 @@ a img{
 }
 .btn{
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
     background-color: black;
 	font-size: 2rem;
 	color: white;
 	padding: 15px 35px 15px 35px;  
     border-radius: 10px;   
     border: solid 3px black;
+    
     /* position: absolute;
     top: 1100px;
     left: 850px;	 */
